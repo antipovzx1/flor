@@ -1,0 +1,47 @@
+{
+    "totalCount": 7,
+    "item": [
+        {
+            "id": 1,
+            "img": "./db/img/pottedPlants/pottedPlants1.png",
+            "prace": 1000, 
+            "countAllItem": 10
+        },
+        {
+            "id": 2,
+            "img": "./db/img/pottedPlants/pottedPlants2.png",
+            "prace": 800,
+            "countAllItem": 7
+        },
+        {
+            "id": 3,
+            "img": "./db/img/pottedPlants/pottedPlants3.png",
+            "prace": 650,
+            "countAllItem": 10
+        },
+        {
+            "id": 4,
+            "img": "./db/img/pottedPlants/pottedPlants4.png",
+            "prace": 800,
+            "countAllItem":5
+        },
+        {
+            "id": 5,
+            "img": "./db/img/pottedPlants/pottedPlants5.png",
+            "prace": 1399,
+            "countAllItem": 3
+        },
+        {
+            "id": 6,
+            "img": "./db/img/pottedPlants/pottedPlants6.png",
+            "prace": 750,
+            "countAllItem": 5
+        },
+        {
+            "id": 7,
+            "img": "./db/img/pottedPlants/pottedPlants7.png",
+            "prace": 900,
+            "countAllItem": 8
+        }
+    ]
+}

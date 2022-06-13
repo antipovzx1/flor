@@ -1,0 +1,361 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    transition: 0.2s;
+}
+
+.header-wrapper {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    padding: 0;
+}
+
+.header-wrapper a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header-wrapper .mf-logo > img {
+    height: 80px;
+    width: 80px;
+}
+
+.logo-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    margin-right: -15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-wrapper a {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.nav a.active {
+    color: pink;
+}
+
+.nav-group a:first-child{
+    margin-bottom: 10px;
+}
+
+.nav .nav-group:nth-child(2n){
+    margin: 0 30px;
+}
+
+.searchBlock {
+    width: 200px;
+    overflow: hidden;
+    height: 45px;
+    border-radius: 15px;
+    border: 3px solid pink;
+}
+
+.searchBlock input {
+    width: 115px;
+    padding-left: 10px;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.searchBlock button {
+    width: 75px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-left: 3px solid pink;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.searchBlock button:hover,
+.cart:hover,
+.nav a:hover{
+    font-weight: bold;
+    color: rgb(255, 68, 99);
+    border-color: rgb(255, 68, 99);
+}
+
+.cart {
+    height: 45px;
+    border: 3px solid pink;
+    background-color: white;
+    padding: 0 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.footer {
+    background-color: pink;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.footer__redes-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+}
+
+.footer__redes-wrapper li {
+    display: inline-block;
+}
+
+.footer__redes-wrapper li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__redes-wrapper li:hover {
+    color: hsl(0, 0%, 44%);
+}
+
+.footer__link {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    margin-right: 8px;
+}
+
+.footer__texto {
+    color: hsl(0, 0%, 63%);
+    text-align: center;
+}
+
+.footer__icon {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.separador {
+    background-color: black;
+    height: 2px;
+    max-width: 30px;
+    margin: 15px auto 20px;
+}
+
+.fa-youtube:before {
+    content: "\f167";
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+
+
+
+
+
+
+.cart-wrapper{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+.shopping-cart {
+    width: 750px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  .title-card{
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+.title {
+    font-size: 22px;
+  }
+   
+  .item {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+   
+  .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+  
+  .delete-btn {
+    width: 18px;
+    height: 17px;
+  }
+  .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+  .image img{
+    width: 100px;
+    height: 100px;
+  }
+  .description span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .quantity span {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+   
+  .shopping-cart button[class*=btn] {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    background-color: white;
+    border: 3px solid rgb(255, 68, 99);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .shopping-cart button[class*=btn]:hover{
+    background-color: rgb(255, 68, 99);
+    color: white;
+  }
+  .minus-btn img {
+    margin-bottom: 3px;
+  }
+  .plus-btn img {
+    margin-top: 2px;
+  }
+  .total-price {
+      color: rgb(255, 68, 99);
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+  .dropdown-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: flex;}
+
+
+
+.cart-pusto{
+    text-align: center;
+    border-top: 3px solid rgb(255, 68, 99);
+    padding: 35px 0;
+}
+
+
+.cardList{
+    vertical-align: middle;
+}
+.pustoList{
+    font-size: 35px;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.pustoList span{
+    color: rgb(255, 68, 99);
+}
+
+.sell-btn{
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid rgb(255, 68, 99);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.sell-btn:hover{
+    background-color: rgb(255, 68, 99);
+    color: white;
+}

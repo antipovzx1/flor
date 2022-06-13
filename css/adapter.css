@@ -1,0 +1,40 @@
+@media (max-width: 960px) {
+    .nav {
+        align-items: center;}
+    .nav .nav-group a {
+        display: block;}
+    .nav .nav-group a:last-child {
+        margin-top: 10px;}
+    .nav .nav-group-end {
+        margin: 0 10px;}
+    .banner-img {
+        width: 450px;}
+}
+
+
+@media (max-width: 848px) {
+    .banner-body span {
+        font-size: 40px;}
+    .banner-body p {
+        margin: 30px 0;
+        font-size: 18px;}
+}
+
+
+@media (max-width: 800px) {
+    .nav .nav-group-end {
+        margin: 0;}
+}
+
+
+@media (max-width: 640px) {
+    .searchBlock input {
+        width: 90px;}
+    .searchBlock button {
+        width: 60px;}
+    .banner-img {
+        width: 300px;}
+    .section-card img {
+        width: 150px;
+        height: 150px;}
+}

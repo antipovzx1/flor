@@ -1,0 +1,115 @@
+.title-page {
+    background-color: pink;
+}
+
+.title-page h1 {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-card {
+    width: 250px;
+    overflow: hidden;
+    border: 3px solid rgb(255, 68, 99);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: max-content;
+}
+
+.section-card img {
+    width: 244px;
+    height: 244px;
+    border-radius: 50%;
+    border: 3px solid pink;
+}
+
+.section-card span {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.section-card button,
+.all {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    background-color: white;
+    border: 3px solid rgb(255, 68, 99);
+    border-radius: 15px;
+    color: rgb(255, 68, 99);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section-card button:hover,
+.all:hover {
+    background-color: rgb(255, 68, 99);
+    color: white;
+}
+.btn-wrapper{
+    display: flex;
+    width: 100%;
+}
+.btn-add{
+    font-size: 25px;
+    background-color: white;
+    border: 3px solid pink;
+    color: pink;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: rgb(255, 68, 99);
+    color: white;
+    border-color: rgb(255, 68, 99);
+}
+.category-page-item{
+    border-bottom: 3px solid pink;
+}
+.category-page-item .row-item{
+    display: flex;
+    margin: 10px 0;
+}
+.category-page-item .row-item #listFlor, .category-page-item .row-item #listColor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-page-item .row-item span{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.category-page-item .row-item span.item-sorted{
+    cursor: pointer;
+}
+.category-page-item .row-item>span:first-child{
+    font-weight: bold;
+}
+.category-page-item .row-item span.active{
+    font-weight: bold;
+    color:  rgb(255, 68, 99);
+}
+.category-page-item .row-item span.item-sorted:hover{
+    font-weight: bold;
+    color:  pink;
+}
+.cardList{
+    min-height: 64vh;
+    justify-content: center;
+}

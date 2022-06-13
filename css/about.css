@@ -1,0 +1,37 @@
+.title-page {
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+.title-page h1 {
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px 0;
+}
+.content{
+    font-size: 20px;
+    margin: 20px 0;
+    height: 100%;
+}
+.content span{
+    display: block;
+}
+.content span:first-child{
+    margin-top: 20px;
+}
+.aboutImg{
+    display: block;
+    margin: 0 auto;
+}
+.center{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main{
+    min-height: 80vh;
+}
+.container{
+    font-size: 20px;
+}

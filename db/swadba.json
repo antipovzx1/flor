@@ -1,0 +1,54 @@
+{
+    "totalCount": 7,
+    "item": [
+        {
+            "id": 1,
+            "img": "./db/img/swadba/swadba1.jpg",
+            "prace": 1999, 
+            "countAllItem": 2,
+            "flor": ["Роза","Гвоздика","Эвкалипт","Диантус"]
+        },
+        {
+            "id": 2,
+            "img": "./db/img/swadba/swadba2.jpg",
+            "prace": 1700,
+            "countAllItem": 1,
+            "flor": ["Пион"]
+        },
+        {
+            "id": 3,
+            "img": "./db/img/swadba/swadba3.jpg",
+            "prace": 1800,
+            "countAllItem": 3,
+            "flor": ["Роза","Гвоздика","Эвкалипт","Диантус"]
+        },
+        {
+            "id": 4,
+            "img": "./db/img/swadba/swadba4.jpg",
+            "prace": 1500,
+            "countAllItem": 1,
+            "flor": ["Роза","Эвкалипт","Пион"]
+        },
+        {
+            "id": 5,
+            "img": "./db/img/swadba/swadba5.jpg",
+            "prace": 1500,
+            "countAllItem": 1,
+            "flor": ["Роза"]
+        },
+        {
+            "id": 6,
+            "img": "./db/img/swadba/swadba6.jpg",
+            "prace": 1899,
+            "countAllItem": 2,
+            "flor": ["Роза","Диантус","Пион"]
+        },
+        {
+            "id": 7,
+            "img": "./db/img/swadba/swadba7.jpg",
+            "prace": 2150,
+            "countAllItem": 3,
+            "flor": ["Ранункулюс"]
+        }
+    ]
+}

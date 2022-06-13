@@ -1,0 +1,61 @@
+{
+    "totalCount": 7,
+    "item": [
+        {
+            "id": 1,
+            "img": "./db/img/food/food1.jpg",
+            "prace": 2499, 
+            "countAllItem":2,
+            "food": ["Ягоды","Фрукты","Печенье","Макарон"],
+            "wrapColor": ["Коричневая","Синяя"]
+        },
+        {
+            "id": 2,
+            "img": "./db/img/food/food2.jpg",
+            "prace": 1659,
+            "countAllItem": 3,
+            "food": ["Ягоды","Фрукты"],
+            "wrapColor": ["Коричневая","Бежевая"]
+        },
+        {
+            "id": 3,
+            "img": "./db/img/food/food3.jpg",
+            "prace": 2800,
+            "countAllItem": 1,
+            "food": ["Ягоды","Фрукты","Макарон"],
+            "wrapColor": ["Зелёная","Бежевая","Розовая"]
+        },
+        {
+            "id": 4,
+            "img": "./db/img/food/food4.jpg",
+            "prace": 2789,
+            "countAllItem": 3,
+            "food": ["Макарон","Мармелад","Зефир","Конфеты"],
+            "wrapColor": ["Розовая","Бежевая","Зелёная","Белая"]
+        },
+        {
+            "id": 5,
+            "img": "./db/img/food/food5.jpg",
+            "prace": 1999,
+            "countAllItem": 2,
+            "food": ["Фрукты","Ягоды"],
+            "wrapColor": ["Белая","Бежевая","Коричневая"]
+        },
+        {
+            "id": 6,
+            "img": "./db/img/food/food6.jpg",
+            "prace": 3000,
+            "countAllItem": 1,
+            "food": ["Снеки","Ягоды"],
+            "wrapColor": ["Белая","Коричневая","Бежевая","Зелёная"]
+        },
+        {
+            "id": 7,
+            "img": "./db/img/food/food7.jpg",
+            "prace": 1600,
+            "countAllItem": 3,
+            "food": ["Орехи"],
+            "wrapColor": ["Белая","Бежевая","Розовая"]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "totalCount": 7,
+    "item": [
+        {
+            "id": 1,
+            "img": "./db/img/Compositions/Compositions1.png",
+            "prace": 2560, 
+            "countAllItem": 2,
+            "flor": ["Гортензия","Роза","Гиперикум","Озотамнус","Эвкалипт"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        },
+        {
+            "id": 2,
+            "img": "./db/img/Compositions/Compositions2.png",
+            "prace": 1000,
+            "countAllItem": 2490,
+            "flor": ["Гортензия","Роза кустовая","Гвоздика","Эвкалипт","Ранункулюс"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        },
+        {
+            "id": 3,
+            "img": "./db/img/Compositions/Compositions3.png",
+            "prace": 2199,
+            "countAllItem": 2,
+            "flor": ["Роза","Гвоздика","Эвкалипт","Озотамнус"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        },
+        {
+            "id": 4,
+            "img": "./db/img/Compositions/Compositions4.png",
+            "prace": 2280,
+            "countAllItem": 1,
+            "flor": ["Роза","Орхидея"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        },
+        {
+            "id": 5,
+            "img": "./db/img/Compositions/Compositions5.png",
+            "prace": 2799,
+            "countAllItem": 2,
+            "flor": ["Гортензия","Роза","Хризантема","Эвкалипт","Озотамнус","Дильфиниум"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        },
+        {
+            "id": 6,
+            "img": "./db/img/Compositions/Compositions6.png",
+            "prace": 2650,
+            "countAllItem": 3,
+            "flor": ["Роза","Эвкалипт","Орхидея","Роза кустовая","Гвоздика"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        },
+        {
+            "id": 7,
+            "img": "./db/img/Compositions/Compositions7.png",
+            "prace": 1000,
+            "countAllItem": 10,
+            "flor": ["Ранункулюс","Эвкалипт"],
+            "wrapColor": ["Белая","Розовая","Бежевая","Серая","Зелёная"]
+        }
+    ]
+}

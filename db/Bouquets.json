@@ -1,0 +1,61 @@
+{
+    "totalCount": 7,
+    "item": [
+        {
+            "id": 1,
+            "img": "./db/img/Bouquets/Bouquets1.png",
+            "prace": 1900,
+            "countAllItem": 3,
+            "flor": ["Роза", "Гвоздика"],
+            "wrapColor": ["Розовая","Бежевая"]
+        },
+        {
+            "id": 2,
+            "img": "./db/img/Bouquets/Bouquets2.png",
+            "prace": 1690,
+            "countAllItem": 10,
+            "flor": ["Роза","Писташ"],
+            "wrapColor": ["Коричневая","Бежевая"]
+        },
+        {
+            "id": 3,
+            "img": "./db/img/Bouquets/Bouquets3.png",
+            "prace": 1780,
+            "countAllItem": 3,
+            "flor": ["Роза", "Эустома","Эвкалипт"],
+            "wrapColor": ["Белая","Бежевая"]
+        },
+        {
+            "id": 4,
+            "img": "./db/img/Bouquets/Bouquets4.png",
+            "prace": 1990,
+            "countAllItem": 4,
+            "flor": ["Роза", "Гвоздика","Эвкалипт"],
+            "wrapColor": ["Белая","Бежевая","Серая"]
+        },
+        {
+            "id": 5,
+            "img": "./db/img/Bouquets/Bouquets5.png",
+            "prace": 1840,
+            "countAllItem": 2,
+            "flor": ["Роза", "Гвоздика","Эвкалипт","Ромашка"],
+            "wrapColor": ["Коричневая","Бежевая","Белая"]
+        },
+        {
+            "id": 6,
+            "img": "./db/img/Bouquets/Bouquets6.png",
+            "prace": 1550,
+            "countAllItem": 4,
+            "flor": ["Роза", "Гвоздика","Эвкалипт","Ромашка","Подсолнух"],
+            "wrapColor": ["Коричневая","Бежевая","Зелёная"]
+        },
+        {
+            "id": 7,
+            "img": "./db/img/Bouquets/Bouquets7.png",
+            "prace": 1000,
+            "countAllItem": 10,
+            "flor": ["Пион", "Гвоздика","Эвкалипт","Кустовая роза"],
+            "wrapColor": ["Коричневая","Бежевая","Белая"]
+        }
+    ]
+}
